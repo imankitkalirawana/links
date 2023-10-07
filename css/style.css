@@ -1,0 +1,149 @@
+body {
+    background: #1c1c1c;
+}
+
+ion-icon {
+    --ionicon-stroke-width: 50px;
+}
+
+#head-container {
+    display: none;
+}
+
+.head-container {
+    display: flex !important;
+}
+
+header {
+    background: transparent;
+}
+
+.header {
+    max-width: calc(788px);
+}
+
+.header-logo img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.header-center h1 {
+    margin: 0;
+    font-size: 1rem;
+    font-family: outfit;
+    font-weight: 400;
+}
+
+.header .header-menu-open {
+    display: flex !important;
+    margin-right: 0;
+}
+
+.header-scroll .header {
+    padding: 1rem;
+}
+
+.container-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img {
+    width: 100px;
+}
+
+.container-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.container-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: Outfit;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.container-middle {
+    max-width: calc(768px);
+    margin: auto;
+}
+
+.card-group {
+    margin-top: 3rem;
+}
+
+.card-group-title h3 {
+    font-size: 12px;
+    font-weight: inherit;
+    font-family: outfit;
+    color: #898989;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #232323;
+    padding: 0px 0.5rem;
+    border-radius: 6px;
+    border: 2px solid #353535;
+    margin: 1rem 0;
+    transition: 0.5s;
+    position: relative;
+}
+
+.card:active {
+    border: 2px solid #344682;
+}
+
+.card-share,
+.card-img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.card-img {
+    transform: translate(-5px);
+}
+
+.card-title h4 {
+    margin: 0;
+}
+
+
+.card:hover .card-img {
+    border-radius: 10px;
+}
+
+.card-share {
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+    right: 0.5rem;
+}
+
+.card:hover .card-share {
+    opacity: 1;
+}
+
+
+
+
+.footer-middle,
+.footer-top {
+    display: none;
+}
+
+.footer-bottom{
+    max-width: calc(900px);
+}
